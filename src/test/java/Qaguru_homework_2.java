@@ -26,7 +26,7 @@ public class Qaguru_homework_2 extends TestBase{
         $(".react-datepicker__day--009:not(.react-datapicker__day--outside-month)").click();
         $("#subjectsInput").setValue("Maths").pressEnter();
         $("#subjectsInput").setValue("Economics").pressEnter();
-        $("#hobbiesWapper").$(byText("Sports")).click();
+        $("#hobbiesWrapper").$(byText("Sports")).click();
         $("#currentAddress").setValue(
                 "My address is not a house and not the street, my address is the Soviet Union").scrollTo();
         $("#state").click();
