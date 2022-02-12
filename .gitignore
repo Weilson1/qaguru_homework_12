@@ -22,13 +22,13 @@
 *.tar.gz
 *.rar
 *.iml
+*.png
 
 # Project gen files
 .idea
 .allure/
 .gradle/
 allure-results/
-notifications/
 gradle/
 build/
 bin/
