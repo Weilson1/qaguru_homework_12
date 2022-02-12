@@ -9,7 +9,7 @@ import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 
 @Tag("bot")
-public class Qaguru_homework_2 {
+public class Qaguru_homework_2 extends TestBase{
 
     @BeforeAll
     static void beforeAll() {
