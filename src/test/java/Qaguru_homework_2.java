@@ -11,12 +11,6 @@ import static com.codeborne.selenide.Selenide.open;
 @Tag("bot")
 public class Qaguru_homework_2 extends TestBase{
 
-    @BeforeAll
-    static void beforeAll() {
-        Configuration.browserSize = "1920x1080";
-        Configuration.baseUrl = "https://demoqa.com";
-    }
-
     @Test
     void succesTest() {
         open("/automation-practice-form");
